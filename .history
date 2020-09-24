@@ -1,0 +1,501 @@
+ls
+echo$shell
+echo $SHELL
+whoami
+echo $TERM
+echo $HOST
+echo $USER
+printenv
+echo $USER
+echo '$USER'
+ECHO "MI USUARIO ES $USER"
+echo "MI USUARIO ES $USER"
+echo "hoy es el día 'date'"
+echo "en este directorio encuento lo siguiente: $(ls)"
+echo "hoy es el dia &(date)"
+echo "hoy es el dia $ (date)"
+echo "hoy es el dia $(date)"
+echo "hoy es el\\
+, que es mi día favorito"
+echo "a\nb"
+cd
+cd Data/shell
+cat Text_example.txt
+cat 
+cd Data/shell
+pwd
+cd ../
+cd - 
+ls-s
+ls - s
+cd..
+cd/
+cd base
+cd Base
+ls - s
+ls
+ls - s
+ls
+ls - l
+ls
+rm minuevarchivo
+ls minuevarchivo minuevofolder
+clear
+git
+clear
+https://github.com/IgorAramb/DS_CL_files.fit
+https://github.com/IgorAramb/DS_CL_files.git
+git clone https://github.com/IgorAramb/DS_CL_files.git
+ls
+cd DS_CL_files
+ls
+git reset head --hard
+git reset HEAD --hard
+man ls
+ls --help
+git config --global user.name "Igor A"
+git config --global user.name 'JuanSTGz'
+git config --global user.email juan.santateresa@gmail.com
+~/.git-credentials
+clear
+cd..
+cd..\\
+clear
+git clone https://github.com/JuanSTGz/masterDS-kschool.git
+ls
+cd masterDS-kschool
+ls
+cat README.md
+touch nuevoarchivo
+touch modeloparaconquistarelmundo
+git status
+git commit -m 'implement a random forest'
+git push
+git config
+git
+git --
+clear
+git config --global user.name "Juan Santa Teresa"
+git config --global user.email "juan.santateresa@gmail.com"
+cat .gitconfig
+gedit . config\\
+gedit .config
+ls
+mkdir Repos
+cd Repos
+git clone https://github.com/juansantateresa/masterDS-kschool.git
+git clone https://github.com/juansantateresa/masterDS-kschool.git Otro_dir_name
+pwd
+ls
+git init masterDS-kschool_local_start
+ll
+cd masterDS-kschool_local
+cd masterDS-kschool_local_start
+cd-
+cd -
+cd masterDS-kschool_local_start
+git status
+ls
+cd.. 
+cd ..
+cd masterDS-kschool_local_start
+git status
+touch first_file.txt
+touch sencond_file
+ll
+gedit first_file.txt
+git add first_file.txt
+git status
+echo first_file.txt
+git status
+git add second_file
+git add sencond_file
+git status
+git commit -m "first commit"
+touch second_file
+git add second_file
+git status
+git log
+ll
+gedit first_file.txt
+git status
+git add -u
+git status
+git commit
+git remote -v
+git remote add origin https://github.com/juansantateresa/local_init.git 
+git remote -v
+git branch -M master
+git push -u origin master
+cat .history
+cd
+cat. history
+cat .history
+git init masterDS-kschool/local-repo2
+git init masterDS-kschool/command_line_masterDS
+cd command_line_masterDS
+cd masterDS-kschool/command_line_masterDS
+cd
+git clone https://github.com/juansantateresa/command_line_masterDS.git
+cd command_line_masterDS
+cp ~\ .history
+cp ~\ .history history
+cp ~\ .history History
+cp ~\ .history
+cp --help
+cp ~\ .history History
+cp .history History
+cd..
+cd 
+cp ~\ .history History 
+cd command_line_masterDS
+cap .history
+cd
+mkdir first_dir
+cd first_dir
+mkdir text_file.txt
+chmod g+x,u+r text_file.txt
+mkdir sub1
+mkdir sub2
+mkdir text_file
+cp text_file.txt sub1
+cp-p text_file sub1
+cp -p text_file sub1
+cp text_file.txt sub1
+ll
+cp text_file.txt sub1
+touch text_file.txt
+cp text_file.txt sub1
+cp .text_file sub1
+cp .text_file.txt sub1
+ll
+chmod g+x,o+w text_file.txt
+ll
+cp text_file.txt sub1
+ls sub2
+mv  text_file.txt sub2
+ls sub2
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+mv sub2/text_file.txt
+mv sub2/textfile.txt .2 sub2/text_file.txt.backup
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ll
+clear
+cd
+mkdir first_dir1
+touch text_file.txt
+rm text_file.txt
+cd first_dir1
+touch text_file.txt
+chmod g+w,o+r,text_file.txt
+chmod g+w,o+r text_file.txt
+mkdir text_file
+mkdir sub 1 sub2
+cp-r text_file.txt sub1
+cp -r text_file.txt sub1
+mv text_file.txt sub2
+ll
+cd sub2
+ll
+mv text_file.txt text_file2.txt
+mv text_file2.txt sub2
+clear
+cd
+ll
+alias
+gs
+cd command_line_masterDS
+alias gl='git log'
+alias gc='git commit -m'
+exit
+gl
+ll
+alias
+cp .zshrc .zshrc.backup
+alias gl='git log'
+alias gc='git commit -m'
+which ll
+which gl
+which cd
+which python
+whereis python
+sudo which python
+echo this is all very very nice
+whereis python
+echo this is all verY very Nice
+fas
+df
+as
+ñlkfjalskdfj
+cd data
+cd Data/opentraveldata
+ll
+head optd_aircraft.csv
+cat optd_aircraft.csv
+tail optd_aircraft.csv
+head -n 3 optd_aircraft.csv
+head -n -3 optd_aircraft.csv
+wc optd_aircraft.csv
+wc -w optd_aircraft.csv
+cat optd_aircraft.csv
+wc optd_aircraft.csv
+cat optd_aircraft.csv | wc
+cat optd_aircraft.csv | wc | wc
+cat optd_aircraft.csv | wc | wc | wc
+heasd -3 optd_aircraft.csv
+head -3 optd_aircraft.csv
+head -8 optd_air
+head -8 optd_aircraft.csv 
+cat -n optd_aircraft.csv
+cat -n optd_aircraft.csv |head -8 | tail -1
+echo test
+echo Test >test_file
+cat test_file
+echo Test2 >test_file
+echo Test2 >>test_file
+cat test_file
+<test_file wc
+cat -n optd_aircraft.csv |head -8 | tail -1
+cat -n optd_aircraft.csv |head -8 | tail -1 >line_number8.csv
+cat line_number8.csv
+cd..
+cd../shell
+cd shell
+cd /Data/shell
+ll
+cd
+cd Data
+cd shell
+finn.txt
+cat finn.txt
+head 5 Finn.txt
+Finn.txt
+head -5 Finn.txt |wc -l
+head -5 Finn.txt |wc -w
+tail -20 ~/.history > last_20_commands.txt
+cd
+cd masterDS-kschool
+touch timestamp.txt
+less timestamp.txt
+cd data
+cd Data
+cd Shell
+cd shell
+head -5 Finn.txt | wc - 2
+find
+cd
+find
+find . 
+find ./
+find ./repos
+find ./Repos
+find ./Repos | wc
+find . -name "text_file"
+find -type -iname "tExt_file"
+find . -maxdepth 5 -type f -iname
+find -iname "text_file"
+find -iname "text_file*"
+find -iname "text_file" -perm 777
+find -maxdepth 3 -size 0
+cd Data
+find . -type f -iname "*.csv"
+find . -type f -iname "*.csv" | wc
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \\
+;
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \;
+echo this ; echo that
+echo this \; echo that
+find . -type f -iname "*.csv" -excec ls -l {}\;
+find . -type f -iname "*.csv" -ecec ls -l {}\;
+find . -type f -iname "*.csv" -exec ls -l {}\;
+find . -type f -iname "*.csv" -exec ls -l {}\; -exec head -2 {} \;
+find . -type f -iname "*.csv" -exec ls -l {} |wc \;
+find . -type f -iname "*.csv" -exec zsh ls -l {} |wc \;
+find . -type f -iname "*.csv" -exec zsh -c ls -l {} |wc \;
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} |wc" \;
+bash
+echo $1
+echo $0
+exit
+cd
+find . -mmin 60
+find . -mmin -60
+find -empty
+find . -type f -mmin -60
+find -type f -empty
+find -mindepth 2 -type f -mmin -60
+find -mindepth 2 -type f -empty ! -perm 777 -ok chmod 777 {}
+find -mindepth 2 -type f -empty ! -perm 777 -ok chmod 777 {} \\
+reset
+find . -mindepth 2 -type f -empty ! -perm 777 -ok chmod 777 {} \\
+
+find . -type f +100mb > ficheros.txt
+find . -type f +100M > ficheros.txt
+find . -type f -size +100M > ficheros.txt
+find . -type f +100M > ficheros.txt
+find . -type d
+cd Data
+find . -type d
+ls -l 
+ls -l us_dot
+ls -l opentraveldata
+ls -ls opentraveldata
+ls - lsr opentraveldata
+ls -lSr opentraveldata
+lSr -ls opentraveldata
+find. -type -d 
+find . -type -d
+find . -type d
+find. -type d -exec "ls -l {}" \;
+find . -type d -exec "ls -l {}" \;
+find . -type d -exec echo {} \; "ls -l {}" \;
+find. -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lSh {} | head -4" \;
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lSh {} | head -4" \;
+cd Repos
+cd
+command_line_masterDS
+cd ../Repos
+ll
+cd masterDS-kschool
+ll
+command_line_masterDS
+cd command_line_masterDS
+cp ~/.history
+touch history
+cp ~/.history
+git commit
+ll
+masterDS-Kschool
+cd masterDS-kschool
+mkdir first_dir
+cd first_dir
+touch text_file.txt
+chmod g+x,o+w text_file.txt
+mkdir sub1 sub2 text_file
+cp -p text_file.txt sub1\\
+ok
+mv text_file.txt sub2\text_file.txt.2
+cp -r sub1\sub3\\
+ok
+cp sub1\sub3\\
+ok
+cp -help
+cp --help
+cp -r sub1\sub3
+cp -r sub1\sub3\\
+
+cp -r sub1/sub3/
+cp sub1/sub3
+cp -r sub1/sub3/
+ll
+cd sub1
+rm sub1ok
+cd first_dir
+cd..
+cd
+masterDS-kschool
+cd masterDS-kchool
+ll
+cd masterDS-kshool/
+cd masterDS-Kschool
+cd masterDS-kschool/
+cd first_dir
+ll
+rm sub1ok
+ll
+rm sub2text_file.txt.2
+cd sub1
+ll
+cd~
+cd..
+cd../
+cd-
+cd - 
+cp text_file.txt sub1/
+ll
+touch text_file.txt
+cp text_file.txt sub1/
+mv text_file.txt sub2/text_file.txt.2
+cp -r sub1/sub3
+cp -r sub1/sub3/
+ll
+mkdir sub3
+cp -r sub1/sub3
+cp -r sub1/sub3/
+ll
+cp -r sub1/sub3/
+cp -r sub1/sub3/sub3/
+cp -r sub1/ sub3/
+ll
+cd sub3
+ll
+cd-
+cd -
+ll
+cd sub2
+ll
+cd first_dir_
+cd -
+cd sub2
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ll
+mv text_file.txt.2 text_file.txt.backup
+ll
+mv text_file.txt.backup first_dir/text_file.txt.backup
+ll
+mv text_file.txt.backup ./. text_file.txt.backup
+cd -
+mv sub2/text_file.txt.backup first_dir/text_file.txt.backup
+ll
+cd sub3
+cd -
+cd sub2
+cd -
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ll
+cd..
+cd
+gitconfig
+git config
+gitconfig
+clear
+git config
+git status
+git init
+git remote add origin https://github.com/juansantateresa/command_line_masterDS.git
+git clone https://github.com/juansantateresa/command_line_masterDS.git
+git status
+cd Repos
+ll
+git clone https://github.com/juansantateresa/command_line_masterDS.git
+ll
+cd command_line_masterDS
+touch nuevoarchivo
+git add nuevoarchivo
+git status
+git commit -m 'Implement a random forest'
+ll
+git config
+gitconfig
+�d
+cd
+clar
+clear
+git config --global user.name "juansantateresa"
+git config --global user.email "juan.santateresa@gmail.com"
+cd Repos
+ll
+git remote add origin https://github.com/juansantateresa/command_line_masterDS.git
+cd command_line_masterDS
+cd
+.history
+history
+cp history Repos/command_line_masterDS
+history
+cat history
+cat .histor
+cd Repos
+cd command_line_masterDS
+cp ~/.history ./
